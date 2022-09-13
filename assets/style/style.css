@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-light: #1c4a64;
+  --second-color: #0e2432;
+  --three-color: #184259;
+  --color-light: white;
+  --bg-dark: #111111;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--color-light);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+}
+
+nav h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+nav .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav .nav-item li {
+  margin: 0 16px;
+}
+
+nav .nav-item li a {
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+nav .button-cv .myCV {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 56px;
+  background-color: var(--second-color);
+  border: none;
+  color: var(--color-light);
+  border-radius: 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+header .left {
+  /* width: 40%; */
+  margin-right: 32px;
+}
+
+header .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* width: 50%; */
+}
+
+header .left h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+header .left a {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: var(--color-light);
+  padding: 16px 44.5px;
+  background-color: var(--second-color);
+  border-radius: 20px;
+}
+
+header .right .rectangle-out {
+  width: 457.5px;
+  height: 457.5px;
+  border-radius: 54px;
+  background-color: var(--second-color);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+header .right .rectangle-in {
+  background-color: #122a39;
+  width: 100%;
+  height: 100%;
+  border-radius: 34px;
+}
+
+header .right img {
+  position: absolute;
+  bottom: -120px;
+  left: -30px;
+  transform: rotate(45deg);
+}
+
+header .bottom {
+  grid-column: 1 / span 2;
+}
+
+/* find-me */
+.find-me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 80px;
+}
+
+.find-me p,
+.find-me a {
+  margin-right: 10px;
+}
+
+.find-me p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.find-me a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--second-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About */
+main .about {
+  display: grid;
+  grid-template-areas:
+    "header paragraph"
+    "img paragraph";
+  margin-top: 105px;
+}
+
+.about h1 {
+  grid-area: header;
+  font-size: 72px;
+  font-weight: 700;
+  width: 80px;
+  line-height: 86.76px;
+}
+
+.about img {
+  grid-area: img;
+  width: 404px;
+}
+
+.about .paragraph-about {
+  grid-area: paragraph;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about .paragraph-about p:not(:last-child) {
+  margin-bottom: 51px;
+}
+
+#about .mySkill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#about .mySkill article{
+  width: 48%;
+}
+
+#about article .head .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--three-color);
+  overflow: hidden;
+  float: left;
+}
+
+#about article .head h1 {
+  width: 100%;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.56px;
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+#about article .head .image img.teknical {
+  width: 100px;
+  transform: translateY(7px);
+}
+
+#about article .head .image img.general {
+  width: 75px;
+  transform: translate(10px, 22px);
+}
+
+*{
+  outline: 1px solid red;
+}
