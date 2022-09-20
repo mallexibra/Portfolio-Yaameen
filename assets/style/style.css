@@ -192,10 +192,10 @@ main .about {
   margin-bottom: 51px;
 }
 
+/* MySkill */
 #about .mySkill {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
@@ -203,13 +203,19 @@ main .about {
   width: 48%;
 }
 
+#about article .head {
+  display: flex;
+  margin-bottom: 30px;
+}
+
 #about article .head .image {
-  width: 100px;
+  width: 120px;
   height: 100px;
   border-radius: 50%;
   background-color: var(--three-color);
   overflow: hidden;
-  float: left;
+  margin-right: 20px;
+  /* float: left; */
 }
 
 #about article .head h1 {
@@ -217,11 +223,16 @@ main .about {
   font-size: 32px;
   font-weight: 700;
   line-height: 38.56px;
-  float: left;
+  /* float: left; */
 }
 
-.clear{
-  clear: both;
+#about article .main span{
+  background-color: var(--second-color);
+  display: inline-block;
+  padding: 7px;
+border-radius: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
 }
 
 #about article .head .image img.teknical {
@@ -234,6 +245,6 @@ main .about {
   transform: translate(10px, 22px);
 }
 
-*{
+/* *{
   outline: 1px solid red;
-}
+} */
