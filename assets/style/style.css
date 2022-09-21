@@ -392,6 +392,97 @@ main .about {
   font-weight: 300;
 }
 
+/* My Latest Works */
+.myWorks{
+  margin-top: 194.12px;
+}
+
+.myWorks h1{
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.myWorks .link{
+  width: 480px;
+  /* background-color: var(--bg-dark); */
+  border-radius: 25px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.myWorks .link .active{
+  border-bottom: 1px solid white;
+  opacity: 100%;
+}
+
+.myWorks .link .active-dark{
+  background-color: #5A80FD;
+  opacity: 100%;
+}
+
+.myWorks .dark{
+  background-color: #121315;
+  opacity: 100%;
+}
+
+.myWorks .link a{
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--color-light);
+  opacity: 50%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  /* border-radius: 15px; */
+}
+
+.myWorks #project{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 64px;
+}
+
+.myWorks #project .square{
+  background-color: white;
+  width: 40%;
+  border-radius: 25px;
+  padding: 32px 28px;
+  margin-bottom: 32px;
+}
+
+.myWorks #project .square .image{
+  height: 355px;
+  background-color: rgb(203, 203, 203);
+  border-radius: 25px;
+}
+
+.myWorks #project .square h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+  margin: 32px 0 16px 0;
+}
+
+.myWorks #project .square p{
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.myWorks #project .square a{
+  color: #1C4A64;
+  font-size: 24px;
+  font-weight: 400;
+}
 /* *{
   outline: 1px solid red;
 } */
