@@ -197,6 +197,7 @@ main .about {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 55px;
 }
 
 #about .mySkill article{
@@ -230,9 +231,9 @@ main .about {
   background-color: var(--second-color);
   display: inline-block;
   padding: 7px;
-border-radius: 10px;
-margin-bottom: 10px;
-margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 31px;
+  margin-right: 19px;
 }
 
 #about article .head .image img.teknical {
@@ -243,6 +244,152 @@ margin-right: 10px;
 #about article .head .image img.general {
   width: 75px;
   transform: translate(10px, 22px);
+}
+
+/* My Education */
+.myEdu{
+  margin-top: 72px;
+}
+
+.myEdu h1{
+  font-size: 72px;
+  font-weight: 700;
+  width: 404px;
+  line-height: 86.76px;
+}
+
+.myEdu main{
+  display: flex;
+}
+
+.myEdu main .left{
+  height: 328px;
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  border-right: 1px solid var(--color-light);
+}
+
+.myEdu main .right{
+  flex-basis: 40%;
+  box-sizing: border-box;
+  padding-left: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.myEdu main .right span{
+  width: 401px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  background-color: var(--three-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 20px 0 0 15px;
+  box-sizing: border-box;
+}
+
+.myEdu main .right span::after{
+  content: "";
+  display: inline-block;
+  transform: rotate(62deg);
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 50px solid var(--three-color);
+  position: absolute;
+  top: -14px;
+  left: -8px;
+}
+
+/* Working Experience */
+.working{
+  margin-top: 140px;
+}
+
+.working h3{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 63px;
+}
+
+.working p{
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 31.67px;
+}
+
+.working h1{
+  font-weight: 700;
+  font-size: 74.71px;
+}
+
+.working h1 span{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 31.67px;
+}
+
+.working .main{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 63px;
+}
+
+.working .main ul{
+  width: 50%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/* Curricular */
+.curricular h3{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 63.33px;
+}
+
+.curricular p{
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 31.67px;
+}
+
+.curricular h1{
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 31.67px;
+}
+
+.curricular .main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.curricular .main ul{
+  width: 48%;
+  min-width: 463.11px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 /* *{
