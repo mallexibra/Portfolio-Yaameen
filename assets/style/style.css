@@ -28,7 +28,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 33px 0;
+  padding: 33px 120px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--bg-light);
+  /* box-shadow: 3px 0 7px rgba(0, 0, 0, 0.306); */
 }
 
 nav h1 {
@@ -69,7 +76,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 200px;
+  padding-top: 220px;
 }
 
 header .left {
@@ -564,6 +571,20 @@ footer .container section ul a{
   text-decoration: none;
   color: white;
   padding: 58px;
+}
+
+/* Dark Mode */
+.dark{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* *{
   outline: 1px solid red;
