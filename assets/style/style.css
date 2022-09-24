@@ -539,6 +539,21 @@ footer .container .talk span{
   justify-content: center;
   align-items: center;
   background-color: white;
+  /* transform: translateX(150px); */
+}
+
+footer .container .talk:hover span{
+  animation-name: animate;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes animate {
+  0%{transform: translateX(0)}
+  100%{transform: translateX(80px)}
 }
 
 footer .container hr{
@@ -585,6 +600,7 @@ footer .container section ul a{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 /* *{
   outline: 1px solid red;
